@@ -5,11 +5,13 @@ const path = require('path');
 const chalk = require('chalk');
 const ClaudeBrain = require('./memory');
 const VendorSpecManager = require('./vendor-sync');
+const PromptManager = require('../prompts');
 
 class BrainStartup {
   constructor() {
     this.brain = new ClaudeBrain();
     this.vendorManager = new VendorSpecManager();
+    this.promptManager = new PromptManager();
   }
 
   async start() {
