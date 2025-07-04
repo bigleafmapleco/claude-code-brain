@@ -1,0 +1,9 @@
+patterns:
+  error-handling:
+    - pattern: try-catch with user-friendly messages
+      example: try { ... } catch (e) { console.error("User-friendly:", e.message) }
+      learned: 2025-07-04T05:02:41.933Z
+    - pattern: try-catch with user-friendly messages
+      example: try { ... } catch (e) { console.error("User-friendly:", e.message) }
+      learned: 2025-07-04T05:07:10.914Z
+detected: true

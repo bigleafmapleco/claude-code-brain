@@ -36,26 +36,3 @@ Documentation
 See docs/ for detailed documentation.
 License
 MIT
-
-#### 3.4 Create `.claude/memory/context.yaml`:
-```yaml
-# Initial context template
-project:
-  name: "Claude Code Brain"
-  type: "framework"
-  phase: "initial-development"
-  started: "2024-11-14"
-
-brain_version: "0.1.0"
-
-tech_stack:
-  runtime: "node"
-  language: "javascript"
-  
-configuration:
-  explanation_level: "medium"
-  auto_checkpoint: true
-  vendor_sync_interval: "daily"
-  
-patterns_learned: {}
-user_preferences: {}

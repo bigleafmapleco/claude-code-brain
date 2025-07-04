@@ -1,0 +1,47 @@
+project:
+  name: Claude Code Brain Framework
+  description: Self-aware framework for intelligent Claude Code sessions
+  type: development-framework
+  phase: initial-development
+  started: 2024-11-14
+  repository: https://github.com/[your-username]/claude-code-brain
+brain_meta:
+  version: 0.1.0
+  initialized_at: 2024-11-14T00:00:00Z
+  last_active: 2025-07-04T05:07:10.907Z
+  last_checkpoint: 2025-07-04T05:07:10.909Z
+current_state:
+  completed_features: []
+  working_on: Core brain initialization system
+  blocked_by: null
+  next_tasks:
+    - Build memory management system
+    - Create vendor sync system
+    - Implement startup routine
+    - Design master prompt templates
+tech_stack:
+  decided:
+    runtime: Node.js
+    language: JavaScript
+    package_manager: npm
+    dependencies:
+      - "yaml: For configuration management"
+      - "chalk: For terminal styling"
+      - "inquirer: For interactive prompts"
+configuration:
+  user_preferences:
+    explanation_level: medium
+    decision_autonomy: ask_for_major
+    code_style: clean_and_commented
+  brain_settings:
+    auto_checkpoint: true
+    checkpoint_interval: after_each_feature
+    vendor_sync_interval: daily
+    pattern_detection: true
+    self_evaluation: true
+  development_mode:
+    verbose_logging: true
+    show_thought_process: true
+    explain_decisions: true
+patterns_learned: {}
+session_history: []

@@ -1,26 +1,26 @@
 {
-    "name": "claude-code-brain",
-    "version": "0.1.0",
-    "description": "An intelligent, self-aware framework that transforms Claude Code into a persistent, learning project architect",
-    "main": "brain/index.js",
-    "scripts": {
-      "brain:init": "node brain/init.js",
-      "brain:start": "node brain/start.js",
-      "brain:sync": "node brain/vendor-sync.js",
-      "brain:status": "node brain/status.js"
-    },
-    "keywords": [
-      "claude",
-      "ai",
-      "coding",
-      "framework",
-      "development"
-    ],
-    "author": "Your Name",
-    "license": "MIT",
-    "dependencies": {
-      "yaml": "^2.3.4",
-      "chalk": "^5.3.0",
-      "inquirer": "^9.2.12"
-    }
+  "name": "claude-code-brain",
+  "version": "0.1.0",
+  "description": "An intelligent, self-aware framework that transforms Claude Code into a persistent, learning project architect",
+  "main": "brain/index.js",
+  "scripts": {
+    "brain:init": "node brain/init.js",
+    "brain:start": "node brain/start.js",
+    "brain:sync": "node brain/vendor-sync.js",
+    "brain:status": "node brain/status.js"
+  },
+  "keywords": [
+    "claude",
+    "ai",
+    "coding",
+    "framework",
+    "development"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6",
+    "yaml": "^2.3.4"
   }
+}
