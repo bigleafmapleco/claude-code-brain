@@ -1,3 +1,14 @@
+.claude/agents/*/
+.claude/memory/context.yaml.backup
+*.log
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.development
+.env.test
+.env.production
+
 # Logs
 logs
 *.log
@@ -137,3 +148,4 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
