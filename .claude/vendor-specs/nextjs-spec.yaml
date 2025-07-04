@@ -1,0 +1,28 @@
+version: "14.0"
+lastChecked: 2025-07-04T05:12:20.548Z
+keyPatterns:
+  appRouter:
+    description: App Router is the recommended approach
+    example: app/page.tsx for routes
+    bestPractices:
+      - Use server components by default
+      - Client components need "use client" directive
+      - Loading.tsx for loading states
+      - Error.tsx for error boundaries
+  dataFetching:
+    description: Server Components fetch data directly
+    example: async function Page() { const data = await fetch(...) }
+    bestPractices:
+      - Fetch in Server Components when possible
+      - Use cache() for request deduplication
+      - Implement proper error handling
+  routing:
+    description: File-based routing in app directory
+    patterns:
+      - app/page.tsx → /
+      - app/about/page.tsx → /about
+      - app/blog/[slug]/page.tsx → /blog/:slug
+      - app/(group)/layout.tsx → Layout for group
+commonIssues:
+  Module not found: Check if using correct import paths for app router
+  Hydration mismatch: Ensure consistent server/client rendering

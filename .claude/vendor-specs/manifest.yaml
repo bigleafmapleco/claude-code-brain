@@ -1,0 +1,23 @@
+version: "1.0"
+sources:
+  nextjs:
+    name: Next.js
+    docUrl: https://nextjs.org/docs
+    enabled: true
+    lastUpdated: 2025-07-04T05:12:20.549Z
+  react:
+    name: React
+    docUrl: https://react.dev/reference/react
+    enabled: true
+    lastUpdated: 2025-07-04T05:12:20.550Z
+  supabase:
+    name: Supabase
+    docUrl: https://supabase.com/docs
+    enabled: true
+    lastUpdated: 2025-07-04T05:12:20.551Z
+  tailwind:
+    name: Tailwind CSS
+    docUrl: https://tailwindcss.com/docs
+    enabled: true
+    lastUpdated: 2025-07-04T05:12:20.552Z
+lastSync: 2025-07-04T05:12:20.552Z

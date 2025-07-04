@@ -1,0 +1,20 @@
+version: "3.3"
+lastChecked: 2025-07-04T05:12:20.551Z
+keyPatterns:
+  utilities:
+    description: Utility-first CSS framework
+    common:
+      - "flex, grid: Layout"
+      - "p-4, m-2: Spacing"
+      - "text-lg, font-bold: Typography"
+      - "bg-blue-500, text-white: Colors"
+      - "hover:, focus:: State variants"
+  responsive:
+    description: Mobile-first responsive design
+    breakpoints:
+      sm: 640px
+      md: 768px
+      lg: 1024px
+      xl: 1280px
+      2xl: 1536px
+    example: class="text-sm md:text-lg lg:text-xl"

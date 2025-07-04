@@ -1,0 +1,19 @@
+version: "18.2"
+lastChecked: 2025-07-04T05:12:20.549Z
+keyPatterns:
+  hooks:
+    description: Hooks are the modern way to use state and effects
+    commonHooks:
+      - "useState: Local component state"
+      - "useEffect: Side effects"
+      - "useContext: Consume context"
+      - "useMemo: Expensive computations"
+      - "useCallback: Memoize callbacks"
+  components:
+    description: Function components are recommended
+    example: "function Component({ prop }: Props) { return <div>{prop}</div> }"
+    bestPractices:
+      - Use TypeScript for props
+      - Destructure props
+      - Keep components focused
+      - Extract custom hooks

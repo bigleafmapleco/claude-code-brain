@@ -1,0 +1,25 @@
+version: "2.0"
+lastChecked: 2025-07-04T05:12:20.550Z
+keyPatterns:
+  client:
+    description: Initialize Supabase client
+    example: |-
+      import { createClient } from '@supabase/supabase-js'
+      const supabase = createClient(url, anonKey)
+    bestPractices:
+      - Use environment variables for keys
+      - Create singleton client
+      - Handle auth state changes
+  database:
+    description: Postgres database operations
+    examples:
+      select: await supabase.from('table').select('*')
+      insert: await supabase.from('table').insert({ data })
+      update: await supabase.from('table').update({ data }).eq('id', id)
+      delete: await supabase.from('table').delete().eq('id', id)
+  auth:
+    description: Built-in authentication
+    examples:
+      signUp: await supabase.auth.signUp({ email, password })
+      signIn: await supabase.auth.signInWithPassword({ email, password })
+      signOut: await supabase.auth.signOut()
